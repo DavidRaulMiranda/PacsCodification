@@ -1,0 +1,10 @@
+C:\Users\Pirios\source\repos\PacsCodification\EXE\PacsCodification.exe.config
+C:\Users\Pirios\source\repos\PacsCodification\EXE\PacsCodification.exe
+C:\Users\Pirios\source\repos\PacsCodification\EXE\PacsCodification.pdb
+C:\Users\Pirios\source\repos\PacsCodification\obj\Debug\PacsCodification.csproj.AssemblyReference.cache
+C:\Users\Pirios\source\repos\PacsCodification\obj\Debug\PacsCodification.Form1.resources
+C:\Users\Pirios\source\repos\PacsCodification\obj\Debug\PacsCodification.Properties.Resources.resources
+C:\Users\Pirios\source\repos\PacsCodification\obj\Debug\PacsCodification.csproj.GenerateResource.cache
+C:\Users\Pirios\source\repos\PacsCodification\obj\Debug\PacsCodification.csproj.CoreCompileInputs.cache
+C:\Users\Pirios\source\repos\PacsCodification\obj\Debug\PacsCodification.exe
+C:\Users\Pirios\source\repos\PacsCodification\obj\Debug\PacsCodification.pdb

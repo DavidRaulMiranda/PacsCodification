@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PacsCodification", "PacsCodification.csproj", "{87561AC1-FAF4-4228-B308-1AE7AE612769}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87561AC1-FAF4-4228-B308-1AE7AE612769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87561AC1-FAF4-4228-B308-1AE7AE612769}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87561AC1-FAF4-4228-B308-1AE7AE612769}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87561AC1-FAF4-4228-B308-1AE7AE612769}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1BFFBDC-EE62-4F08-A3CB-D554E434EAC3}
+	EndGlobalSection
+EndGlobal
