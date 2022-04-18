@@ -52,7 +52,7 @@ namespace PacsCodification
         private void btn_codifica_Click(object sender, EventArgs e)
         {
             fl.NetejaDirectori(pathUnzip);
-            enc.GeneraRandom(codeKey, 3, 10, 100, FileName, pathOriginal, pathCoded , pathSolved); //files, col, row
+            enc.GeneraRandom(codeKey, 300, 10, 90, FileName, pathOriginal, pathCoded , pathSolved); //files, col, row
 
         }
 

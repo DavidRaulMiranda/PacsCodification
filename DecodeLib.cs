@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -49,6 +50,8 @@ namespace PacsCodification
             string[] coded;
             string[] uncoded;
             string filename;
+            string pattern = "\\d*$";
+            Regex rx = new Regex(pattern);
             /*Parallel.For(0, files.Count, (i) =>
             {
                 filename = files[i].Name.Substring(files[i].Name.Length - 1, 1);
@@ -61,7 +64,13 @@ namespace PacsCodification
             });*/
             foreach (FileStream f in files)
             {
-                filename = f.Name.Substring(f.Name.Length - 1, 1);
+                Match m = Regex.Match(f.Name, pattern, RegexOptions.IgnoreCase);
+
+               
+                filename = m.Value;
+               
+               
+                //filename = f.Name.Substring(f.Name.Length - 1, 1);
                 coded = fl.GetDataFromFile(f);
                 uncoded = DecodeData(coded, code, filename);
 
